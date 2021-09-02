@@ -1,0 +1,13 @@
+//DECLARACION VARIABLE
+CADENA[30] ndeportista
+REAL drecorrido,tdemoro,calculo_velocidad
+INICIO
+  ESCRIBA "NOMBRE DEL DEPORTISTA "
+  LEA ndeportista
+  ESCRIBA "DISTANCIA QUE RECORRIO"
+  LEA drecorrido
+  ESCRIBA " TIEMPO QUE DEMORO EN RECORRER ESA DISTANCIA"
+  LEA tdemoro
+  calculo_velocidad <- drecorrido/tdemoro
+  ESCRIBA ndeportista, " USTED ALCANZO UNA VELOCIDAD DE ", calculo_velocidad, " m/s"
+FIN
